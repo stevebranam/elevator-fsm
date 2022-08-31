@@ -216,7 +216,7 @@ The xUML definition allows for two types of states:
   - One common use for this is to make a decision about what state to go to next, so it's useful to further classify such transitory states as *decision states*: transitory states that have more than one exit transition.
   - Formally, a transitory state may be thought of as sending itself a completion event that triggers the transition. As a practical matter, this can be implemented by the entry function itself simply changing directly to the next state, avoiding the additional code and overhead of an explicit event.
 
-The modeling notation doesn't distinguish these, but it's useful to use the keyword notation to highlight << transitory >> states. That results in the following general state representations:
+The modeling notation doesn't distinguish these, but it's useful to use the keyword notation to highlight `<<transitory>>` states. That results in the following general state representations:
 
 ![Wait and transitory states](wait-and-transitory-states.jpg)
 
